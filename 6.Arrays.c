@@ -1,4 +1,4 @@
-6). mas prefer ko sya tawagin na ARRAYS at hindi LISTS!! (laking javascript kasi hihi)
+6). Arrays or Lists
 
 #include <stdio.h>
 
