@@ -23,7 +23,7 @@ Yan ang ginagamit most of the time sa mga if else conditions.
 odikaya "Checkers"
 
 
-int num = 0  | declare a variable that has a type "integer" that has a value of 10
+int num = 10  | declare a variable that has a type "integer" that has a value of 10
 
 1. USING `if` statement
 
@@ -38,8 +38,7 @@ Ngayon, paano kung meron kang two or more conditions na gustong gamitin?
 Dito ka na gagamit ng `else if` statement.
 
 if (10 > 60) {
-    printf("10 is greater than 60!!") | Hindi mag r-run tong code dahil ang condition ay mali
-                                      | You failed basic math if you thought 10 is greater than 60.
+    printf("10 is greater than 60!!") | Hindi mag r-run tong code dahil ang condition ay mali.
 } else if (90 > 10) {
 printf("This code would run")         | Ito ang mag r-run dahil alam naman natin an 90 is greater than 10.
 }
@@ -48,18 +47,18 @@ Tandaan: Na ang mag r-run lang sa else if statements ay ang mga `Condition` na t
 
 3. Using `if, else if, and else` statement together.
 
-int thisNum = 10
-int gradeMo = 5
-int numbr = 15
+int thisNum = 10;
+int gradeMo = 5;
+int numbr = 15;
 
 if (thisNum == gradeMo) {
     printf("This wouldn't run");
 } else if (thisNum == 60) {
-    printf("10 is not equal to 60. This wouldn't run.")
+    printf("10 is not equal to 60. This wouldn't run.");
 } else if (90 < 12) {
-    printf("HINDI RIN TO MAG R-RUN!!")
+    printf("HINDI RIN TO MAG R-RUN!!");
 } else {
-    printf("Wala sa conditions ay tama.")
+    printf("Wala sa conditions ay tama.");
 }
 
 Ask: Kailan ko gagamitin ang `else` statement?
